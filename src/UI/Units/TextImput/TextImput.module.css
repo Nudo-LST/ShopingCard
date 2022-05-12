@@ -1,0 +1,42 @@
+.wrapper {
+  min-width: 300px;
+  height: 30px;
+  position: relative;
+  display: block;
+  margin: 1.5rem;
+}
+
+.wrapper > input,
+.wrapper > input:focus {
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+  height: 30px;
+  border: solid grey 2px;
+  border-radius: 5px;
+  padding: 10px 16px;
+}
+
+.wrapper > label {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  transition: all 0.2s ease;
+  pointer-events: none;
+  background-color: #fff;
+  padding: 0px 10px;
+}
+
+.wrapper input:focus + label,
+.wrapper input:not(:placeholder-shown) + label {
+  transform: scale(0.67);
+  top: -8px;
+  left: -4px;
+}
+
+.kilo {
+  transform: scale(0.67);
+  top: -8px;
+  left: -4px;
+}

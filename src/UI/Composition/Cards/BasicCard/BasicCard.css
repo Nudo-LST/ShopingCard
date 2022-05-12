@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400, 700, 900);
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.slide-container {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}
+
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.clash-card {
+  background: white;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 19px;
+  position: relative;
+  text-align: left;
+  box-shadow: -1px 15px 30px -12px black;
+  margin: 2rem;
+  padding-bottom: 30px;
+}
+
+.clash-card > * {
+  padding: 0px 20px;
+}
+
+.clash-card__image {
+  overflow: hidden;
+  position: relative;
+  height: fit-content;
+  margin-bottom: 35px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  padding: 0px;
+}
+
+.clash-card__unit-name {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.clash-card__unit-description {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  padding: 0px 20px;
+}
